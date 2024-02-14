@@ -63,7 +63,7 @@ include('config.php');
 <div class="leftpart_inner w-full h-auto">
 <div class="logo" data-type="image"> 
 <a href="#">
-<img class="max-w-[150px]" src="modules/ui/assets/img/logo/dark.png" alt />
+<img class="max-w-[150px]" src="modules/ui/assets/img/logo/dark.jpeg" alt />
 <h3 class="font-poppins font-black text-[31px] tracking-[5px]">PORTFOLIO</h3>
 </a>
 </div>
