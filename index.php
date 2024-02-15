@@ -1,7 +1,9 @@
-
 <?php 
+
 include('config.php');
+
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,7 +18,8 @@ include('config.php');
 <link rel="stylesheet" href="modules/ui/assets/css/plugins.css">
 <link rel="stylesheet" href="modules/ui/assets/css/custom.css">
 <link rel="stylesheet" href="modules/ui/assets/css/main.css">
-<title>Portfolio | Akriti</title>
+<link rel="icon" type="image/png" href="modules/ui/assets/img/logo/akriti.png">
+<title>Akriti Portfolio</title>
 </head>
 <body>
 
@@ -31,8 +34,8 @@ include('config.php');
 <div class="topbar_inner w-full h-full clear-both flex items-center justify-between py-0 px-[20px]">
 <div class="logo" data-type="image"> 
 <a href="#">
-<img class="max-w-[100px] max-h-[40px]" src="modules/ui/assets/img/logo/dark.png" alt />
-<h3 class="font-black font-poppins text-[25px] tracking-[4px]">PORTFOLIO</h3>
+<img class="max-w-[100px] max-h-[40px]" src="modules/ui/assets/img/logo/dark.jpeg" alt />
+<h3 class="font-black font-poppins text-[25px] tracking-[4px]">AKRITI</h3>
 </a>
 </div>
 <div class="trigger relative top-[5px]">
@@ -53,7 +56,6 @@ include('config.php');
 <li class="mb-[7px]"><a class="text-black font-montserrat" href="#portfolio">Portfolio</a></li>
 <li class="mb-[7px]"><a class="text-black font-montserrat" href="#news">News</a></li>
 <li><a class="text-black font-montserrat" href="#contact">Contact</a></li>
-<li><a class="text-black font-montserrat" href="#login">Login</a></li>
 </ul>
 </div>
 </div>
@@ -64,7 +66,7 @@ include('config.php');
 <div class="logo" data-type="image"> 
 <a href="#">
 <img class="max-w-[150px]" src="modules/ui/assets/img/logo/dark.jpeg" alt />
-<h3 class="font-poppins font-black text-[31px] tracking-[5px]">PORTFOLIO</h3>
+<h3 class="font-poppins font-black text-[31px] tracking-[5px]">Akriti</h3>
 </a>
 </div>
 <div class="menu px-[0px] py-[50px] w-full float-left">
@@ -76,10 +78,11 @@ include('config.php');
 <li class="m-0 w-full float-left"><a class="text-[#767676] inline-block font-medium font-montserrat transition-all duration-300 hover:text-black" href="#news">News</a></li>
 <li class="m-0 w-full float-left"><a class="text-[#767676] inline-block font-medium font-montserrat transition-all duration-300 hover:text-black" href="#contact">Contact</a></li>
 <li class="m-0 w-full float-left"><a class="text-[#767676] inline-block font-medium font-montserrat transition-all duration-300 hover:text-black" href="#login">Login</a></li>
+
 </ul>
 </div>
 <div class="copyright w-full float-left">
-<p class="text-[15px] text-[#999] font-montserrat leading-[25px]">&copy; 2024 India<br>Created by <a class="text-[#787878] font-medium transition-all duration-300 hover:text-black" href="https://themeforest.net/user/marketify" target="_blank">Akriti</a></p>
+<p class="text-[15px] text-[#999] font-montserrat leading-[25px]">&copy; 2024 India<br>Created by <a class="text-[#787878] font-medium transition-all duration-300 hover:text-black" href="https://akriti.online" target="_blank">Akriti</a></p>
 </div>
 </div>
 </div>
@@ -97,7 +100,7 @@ include('config.php');
 </div>
 <div class="details ml-[80px]">
 <h3 class="name text-[55px] font-extrabold uppercase mb-[14px]">Akriti <span>Kumari</span></h3>
-<p class="job font-montserrat font-medium max-w-[450px] mb-[25px]">I am a Full Stack Developer specializing in the LAMP stack, with extensive expertise in front-end development using React. Open to learning and adapting to new technologies, I am an enthusiastic team player with a passion for tech innovation.</p>
+<p class="job font-montserrat font-medium max-w-[450px] mb-[25px] text-justify">I am a Full Stack Developer specializing in the LAMP stack, with extensive expertise in front-end development using React. Open to learning and adapting to new technologies, I am an enthusiastic team player with a passion for tech innovation.</p>
 <div class="social w-full float-left">
 <ul class="m-0 list-none">
 <li class="mr-[8px] inline-block"><a class="text-black text-[20px] transition-all duration-300 hover:text-black" href="#"><i class="icon-facebook-squared"></i></a></li>
@@ -126,19 +129,27 @@ include('config.php');
 </div>
 </div>
 <div class="top_author_image w-full h-auto clear-both float-left relative mb-[35px]">
-<img class="min-w-full" src="modules/ui/assets/img/slider/1.jpeg" alt />
+<img class="min-w-full" src="modules/ui/assets/img/slider/1.jpeg" style="height: 650px;"  alt />
 </div>
 <div class="about_title w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[20px] mb-[30px]">
-<h3 class="text-[22px] font-bold">Akriti</h3>
-<span>Full-Stack Developer</span>
+<h3 class="text-[22px] font-bold">Akriti Kumari</h3>
+<span>Full Stack Developer</span>
 </div>
 <div class="about_text w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[31px] mb-[30px]">
-<p class="mb-[11px]" style="text-align: justify;">
-As an aspiring Full Stack Developer Apprentice, I am deeply engaged in honing my skills within the dynamic realm of web development. My journey so far has led me to specialize in the LAMP stack, a powerful combination of Linux, Apache, MySQL, and PHP, which lays the foundation for robust back-end development. Alongside this, I have cultivated extensive expertise in front-end development, with a particular focus on creating responsive and interactive user interfaces using React. This dual focus equips me with a comprehensive understanding of both the server-side and client-side aspects of web applications.<br><br>
+<p class="mb-[11px] text-justify">As an aspiring Full Stack Developer Apprentice, I am deeply engaged in honing my skills within the dynamic realm of web development. My journey so far has led me to specialize in the LAMP stack, a powerful combination of Linux, Apache, MySQL, and PHP, which lays the foundation for robust back-end development. Alongside this, I have cultivated extensive expertise in front-end development, with a particular focus on creating responsive and interactive user interfaces using React. This dual focus equips me with a comprehensive understanding of both the server-side and client-side aspects of web applications.
 
-My technical proficiency is matched by an unwavering openness to learning and adapting to new technologies. The tech landscape is ever-evolving, and I am committed to staying at the forefront of innovation, continuously expanding my skill set to include the latest tools and frameworks. This growth mindset is driven by my passion for technology and its potential to solve complex problems and create meaningful user experiences.<br><br>
+<br>
+<br>
 
-Beyond my technical capabilities, I value the importance of teamwork and collaboration in the tech industry. I believe that the best solutions emerge from diverse teams working together, where each member contributes their unique perspective and expertise. As an enthusiastic team player, I strive to support my colleagues, share knowledge, and learn from others, fostering a positive and productive working environment.<br><br>
+My technical proficiency is matched by an unwavering openness to learning and adapting to new technologies. The tech landscape is ever-evolving, and I am committed to staying at the forefront of innovation, continuously expanding my skill set to include the latest tools and frameworks. This growth mindset is driven by my passion for technology and its potential to solve complex problems and create meaningful user experiences.
+
+<br>
+<br>
+
+Beyond my technical capabilities, I value the importance of teamwork and collaboration in the tech industry. I believe that the best solutions emerge from diverse teams working together, where each member contributes their unique perspective and expertise. As an enthusiastic team player, I strive to support my colleagues, share knowledge, and learn from others, fostering a positive and productive working environment.
+
+<br>
+<br>
 
 In pursuit of my ambition to become a well-rounded Full Stack Developer, I am eager to immerse myself in challenging projects that push the boundaries of what's possible. I am excited about the opportunity to contribute to innovative solutions that leverage my skills in the LAMP stack and React, while also allowing me to explore new technologies and methodologies. My journey as a Full Stack Developer Apprentice is not just about personal growth; it's about being part of a community that shapes the future of technology, driving progress and making a tangible impact on the world through tech innovation.</p>
 </div>
@@ -146,21 +157,21 @@ In pursuit of my ambition to become a well-rounded Full Stack Developer, I am ea
 <div class="left w-1/2 pr-[50px]">
 <div class="tokyo_tm_info w-full h-auto clear-both float-left">
 <ul class="m-0 list-none">
-<li class="m-0"><span class="min-w-[100px] float-left mr-[10px] font-bold text-black">Birthday:</span><span>01.07.2002</span></li>
-<li class="m-0"><span class="min-w-[100px] float-left mr-[10px] font-bold text-black">Age:</span><span>22</span></li>
+<li class="m-0"><span class="min-w-[100px] float-left mr-[10px] font-bold text-black">Birthday:</span><span>01.07.2003</span></li>
+<li class="m-0"><span class="min-w-[100px] float-left mr-[10px] font-bold text-black">Age:</span><span>32</span></li>
 <li class="m-0"><span class="min-w-[100px] float-left mr-[10px] font-bold text-black">Address:</span><span>Ave 11, New York, USA</span></li>
 <li class="m-0"><span class="min-w-[100px] float-left mr-[10px] font-bold text-black">Email:</span><span><a class="text-[#767676] transition-all duration-300 hover:text-black" href="/cdn-cgi/l/email-protection#2b5f444052446b4c464a424705484446"><span class="__cf_email__" data-cfemail="33475c584a5c73545e525a5f1d505c5e">[email&#160;protected]</span></a></span></li>
-<li class="m-0"><span class="min-w-[100px] float-left mr-[10px] font-bold text-black">Phone:</span><span><a class="text-[#767676] transition-all duration-300 hover:text-black" href="tel:+91 8434094917">+91 8434094917</a></span></li>
+<li class="m-0"><span class="min-w-[100px] float-left mr-[10px] font-bold text-black">Phone:</span><span><a class="text-[#767676] transition-all duration-300 hover:text-black" href="tel:+77 022 177 05 05">+91 8434094917</a></span></li>
 </ul>
 </div>
 </div>
 <div class="right w-1/2 pl-[50px]">
 <div class="tokyo_tm_info">
 <ul class="m-0 list-none">
-<li class="m-0"><span class="min-w-[100px] float-left mr-[10px] font-bold text-black">Nationality:</span><span>India</span></li>
-<li class="m-0"><span class="min-w-[100px] float-left mr-[10px] font-bold text-black">Study:</span><span>Department of Computer Science and Engineering, Galgotias University.</span></li>
-<li class="m-0"><span class="min-w-[100px] float-left mr-[10px] font-bold text-black">Degree:</span><span>B.Tech, 4th Year Undergraduate. </span></li>
-<li class="m-0"><span class="min-w-[100px] float-left mr-[10px] font-bold text-black">Hobbies:</span><span>Help to learn new things.</span></li>
+<li class="m-0"><span class="min-w-[100px] float-left mr-[10px] font-bold text-black">Nationality:</span><span>USA</span></li>
+<li class="m-0"><span class="min-w-[100px] float-left mr-[10px] font-bold text-black">Study:</span><span>Galgotias University.</span></li>
+<li class="m-0"><span class="min-w-[100px] float-left mr-[10px] font-bold text-black">Degree:</span><span>Master</span></li>
+<li class="m-0"><span class="min-w-[100px] float-left mr-[10px] font-bold text-black">Hobbie:</span><span>Help to learn new things.</span></li>
 <li class="m-0"><span class="min-w-[100px] float-left mr-[10px] font-bold text-black">Freelance:</span><span>Available</span></li>
 </ul>
 </div>
@@ -208,7 +219,10 @@ In pursuit of my ambition to become a well-rounded Full Stack Developer, I am ea
 <span><span class="label">Hindi</span><span class="number">95%</span></span>
 <div class="background"><div class="bar"><div class="bar_in"></div></div></div>
 </div>
-
+<!-- <div class="progress_inner" data-value="85">
+<span><span class="label">Arabic</span><span class="number">85%</span></span>
+<div class="background"><div class="bar"><div class="bar_in"></div></div></div>
+</div> -->
 </div>
 </div>
 </div>
@@ -224,19 +238,19 @@ In pursuit of my ambition to become a well-rounded Full Stack Developer, I am ea
 <div class="tokyo_tm_skill_list w-full h-auto clear-both float-left">
 <ul class="m-0 list-none">
 <li class="m-0 pl-[25px] relative">
-<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="assets/img/svg/rightarrow.svg" alt />Bootstrap, Angular</span>
+<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="modules/ui/assets/img/svg/rightarrow.svg" alt />Bootstrap, Angular</span>
 </li>
 <li class="m-0 pl-[25px] relative">
-<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="assets/img/svg/rightarrow.svg" alt />React, Vue, Laravel</span>
+<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="modules/ui/assets/img/svg/rightarrow.svg" alt />React, Vue, Laravel</span>
 </li>
 <li class="m-0 pl-[25px] relative">
-<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="assets/img/svg/rightarrow.svg" alt />Stylus, Sass, Less</span>
+<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="modules/ui/assets/img/svg/rightarrow.svg" alt />Stylus, Sass, Less</span>
 </li>
 <li class="m-0 pl-[25px] relative">
-<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="assets/img/svg/rightarrow.svg" alt />Gulp, Webpack, Grunt</span>
+<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="modules/ui/assets/img/svg/rightarrow.svg" alt />Gulp, Webpack, Grunt</span>
 </li>
 <li class="m-0 pl-[25px] relative">
-<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="assets/img/svg/rightarrow.svg" alt />Tweenmax, GSAP</span>
+<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="modules/ui/assets/img/svg/rightarrow.svg" alt />Tweenmax, GSAP</span>
 </li>
 </ul>
 </div>
@@ -248,19 +262,19 @@ In pursuit of my ambition to become a well-rounded Full Stack Developer, I am ea
 <div class="tokyo_tm_skill_list w-full h-auto clear-both float-left">
 <ul class="m-0 list-none">
 <li class="m-0 pl-[25px] relative">
-<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="assets/img/svg/rightarrow.svg" alt />Make UI/UX Design</span>
+<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="modules/ui/assets/img/svg/rightarrow.svg" alt />Make UI/UX Design</span>
 </li>
 <li class="m-0 pl-[25px] relative">
-<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="assets/img/svg/rightarrow.svg" alt />Create Mobile App</span>
+<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="modules/ui/assets/img/svg/rightarrow.svg" alt />Create Mobile App</span>
 </li>
 <li class="m-0 pl-[25px] relative">
-<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="assets/img/svg/rightarrow.svg" alt />Site Optimization</span>
+<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="modules/ui/assets/img/svg/rightarrow.svg" alt />Site Optimization</span>
 </li>
 <li class="m-0 pl-[25px] relative">
-<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="assets/img/svg/rightarrow.svg" alt />Custom Website</span>
+<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="modules/ui/assets/img/svg/rightarrow.svg" alt />Custom Website</span>
 </li>
 <li class="m-0 pl-[25px] relative">
-<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="assets/img/svg/rightarrow.svg" alt />Learn Ecommerce</span>
+<span><img class="svg text-black w-[10px] h-[10px] absolute left-0 top-1/2 translate-y-[-50%]" src="modules/ui/assets/img/svg/rightarrow.svg" alt />Learn Ecommerce</span>
 </li>
 </ul>
 </div>
@@ -280,11 +294,11 @@ In pursuit of my ambition to become a well-rounded Full Stack Developer, I am ea
 <li class="m-0 w-full float-left relative pl-[20px] pb-[45px]">
 <div class="list_inner  w-full h-auto clear-both float-left relative flex">
 <div class="time w-1/2 pr-[20px]">
-<span class="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">2020 - 2024</span>
+<span class="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">2014 - 2016</span>
 </div>
 <div class="place w-1/2 pl-[20px]">
-<h3 class="text-[16px] mb-[2px] font-semibold">Galgotias University</h3>
-<span class="text-[14px]">B.Tech</span>
+<h3 class="text-[16px] mb-[2px] font-semibold">Galgotias Univercity</h3>
+<span class="text-[14px]">Master Degree</span>
 </div>
 </div>
 </li>
@@ -322,18 +336,18 @@ In pursuit of my ambition to become a well-rounded Full Stack Developer, I am ea
 <li class="m-0 w-full float-left relative pl-[20px] pb-[45px]">
 <div class="list_inner  w-full h-auto clear-both float-left relative flex">
 <div class="time w-1/2 pr-[20px]">
-<span class="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">10.10.23 - 10.11.23</span>
+<span class="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">2018 - Now</span>
 </div>
 <div class="place w-1/2 pl-[20px]">
-<h3 class="text-[16px] mb-[2px] font-semibold">Bharat Intern</h3>
-<span class="text-[14px]">Intern</span>
+<h3 class="text-[16px] mb-[2px] font-semibold">Envato Market</h3>
+<span class="text-[14px]">Exclusive Author</span>
 </div>
 </div>
 </li>
 <li class="m-0 w-full float-left relative pl-[20px] pb-[45px]">
 <div class="list_inner  w-full h-auto clear-both float-left relative flex">
 <div class="time w-1/2 pr-[20px]">
-<span class="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">05.11.23 - 05.12.23</span>
+<span class="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">2016 - 2018</span>
 </div>
 <div class="place w-1/2 pl-[20px]">
 <h3 class="text-[16px] mb-[2px] font-semibold">RGB Studio</h3>
@@ -341,7 +355,7 @@ In pursuit of my ambition to become a well-rounded Full Stack Developer, I am ea
 </div>
 </div>
 </li>
-<!-- li class="m-0 w-full float-left relative pl-[20px]">
+<li class="m-0 w-full float-left relative pl-[20px]">
 <div class="list_inner  w-full h-auto clear-both float-left relative flex">
 <div class="time w-1/2 pr-[20px]">
 <span class="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">2012 - 2016</span>
@@ -351,7 +365,7 @@ In pursuit of my ambition to become a well-rounded Full Stack Developer, I am ea
 <span class="text-[14px]">Web Designer</span>
 </div>
 </div>
-</li> -->
+</li>
 </ul>
 </div>
 </div>
@@ -584,42 +598,42 @@ In pursuit of my ambition to become a well-rounded Full Stack Developer, I am ea
 <ul class="mt-[-2px] mr-[-10px] mb-[-2px] ml-[-2px] list-none pt-[2px] float-left pl-[2px]">
 <li class="m-0 float-left w-1/4 border-solid border-[#eee] border-2 text-center h-[145px] leading-[145px] relative mt-[-2px] ml-[-2px] overflow-hidden">
 <div class="list_inner w-full h-full clear-both float-left opacity-50 transition-all duration-300 hover:opacity-100">
-<img class="max-w-[50%] max-h-[100px] inline-block" src="assets/img/partners/dark/1.png" alt />
+<img class="max-w-[50%] max-h-[100px] inline-block" src="modules/ui/assets/img/partners/dark/1.png" alt />
 </div>
 </li>
 <li class="m-0 float-left w-1/4 border-solid border-[#eee] border-2 text-center h-[145px] leading-[145px] relative mt-[-2px] ml-[-2px] overflow-hidden">
 <div class="list_inner w-full h-full clear-both float-left opacity-50 transition-all duration-300 hover:opacity-100">
-<img class="max-w-[50%] max-h-[100px] inline-block" src="assets/img/partners/dark/2.png" alt />
+<img class="max-w-[50%] max-h-[100px] inline-block" src="modules/ui/assets/img/partners/dark/2.png" alt />
 </div>
 </li>
 <li class="m-0 float-left w-1/4 border-solid border-[#eee] border-2 text-center h-[145px] leading-[145px] relative mt-[-2px] ml-[-2px] overflow-hidden">
 <div class="list_inner w-full h-full clear-both float-left opacity-50 transition-all duration-300 hover:opacity-100">
-<img class="max-w-[50%] max-h-[100px] inline-block" src="assets/img/partners/dark/3.png" alt />
+<img class="max-w-[50%] max-h-[100px] inline-block" src="modules/ui/assets/img/partners/dark/3.png" alt />
 </div>
 </li>
 <li class="m-0 float-left w-1/4 border-solid border-[#eee] border-2 text-center h-[145px] leading-[145px] relative mt-[-2px] ml-[-2px] overflow-hidden">
 <div class="list_inner w-full h-full clear-both float-left opacity-50 transition-all duration-300 hover:opacity-100">
-<img class="max-w-[50%] max-h-[100px] inline-block" src="assets/img/partners/dark/4.png" alt />
+<img class="max-w-[50%] max-h-[100px] inline-block" src="modules/ui/assets/img/partners/dark/4.png" alt />
 </div>
 </li>
 <li class="m-0 float-left w-1/4 border-solid border-[#eee] border-2 text-center h-[145px] leading-[145px] relative mt-[-2px] ml-[-2px] overflow-hidden">
 <div class="list_inner w-full h-full clear-both float-left opacity-50 transition-all duration-300 hover:opacity-100">
-<img class="max-w-[50%] max-h-[100px] inline-block" src="assets/img/partners/dark/5.png" alt />
+<img class="max-w-[50%] max-h-[100px] inline-block" src="modules/ui/assets/img/partners/dark/5.png" alt />
 </div>
 </li>
 <li class="m-0 float-left w-1/4 border-solid border-[#eee] border-2 text-center h-[145px] leading-[145px] relative mt-[-2px] ml-[-2px] overflow-hidden">
 <div class="list_inner w-full h-full clear-both float-left opacity-50 transition-all duration-300 hover:opacity-100">
-<img class="max-w-[50%] max-h-[100px] inline-block" src="assets/img/partners/dark/6.png" alt />
+<img class="max-w-[50%] max-h-[100px] inline-block" src="modules/ui/assets/img/partners/dark/6.png" alt />
 </div>
 </li>
 <li class="m-0 float-left w-1/4 border-solid border-[#eee] border-2 text-center h-[145px] leading-[145px] relative mt-[-2px] ml-[-2px] overflow-hidden">
 <div class="list_inner w-full h-full clear-both float-left opacity-50 transition-all duration-300 hover:opacity-100">
-<img class="max-w-[50%] max-h-[100px] inline-block" src="assets/img/partners/dark/7.png" alt />
+<img class="max-w-[50%] max-h-[100px] inline-block" src="modules/ui/assets/img/partners/dark/7.png" alt />
 </div>
 </li>
 <li class="m-0 float-left w-1/4 border-solid border-[#eee] border-2 text-center h-[145px] leading-[145px] relative mt-[-2px] ml-[-2px] overflow-hidden">
 <div class="list_inner w-full h-full clear-both float-left opacity-50 transition-all duration-300 hover:opacity-100">
-<img class="max-w-[50%] max-h-[100px] inline-block" src="assets/img/partners/dark/8.png" alt />
+<img class="max-w-[50%] max-h-[100px] inline-block" src="modules/ui/assets/img/partners/dark/8.png" alt />
 </div>
 </li>
 </ul>
@@ -1164,84 +1178,89 @@ In pursuit of my ambition to become a well-rounded Full Stack Developer, I am ea
 </div>
 </div>
 
-</div>
-</div>
 
 
-<div class="mouse-cursor cursor-outer"></div>
-<div class="mouse-cursor cursor-inner"></div>
 
-</div>
 
-<!-- login starts here-->
 
-<div id="login" class="tokyo_tm_section" style="margin-left: 700px;">
+<div id="login" class="tokyo_tm_section">
 <div class="container">
 <div class="tokyo_tm_contact w-full float-left clear-both h-auto py-[100px] px-[0px]">
 <div class="tokyo_tm_title w-full h-auto clear-both float-left mb-[62px]">
 <div class="title_flex w-full h-auto clear-both flex justify-between items-end">
 <div class="left">
-<span class="inline-block bg-[rgba(0,0,0,.04)] uppercase py-[4px] px-[10px] font-semibold text-[12px] text-[#333] font-montserrat tracking-[0px] mb-[11px]">Login</span>
-<h3 class="font-extrabold font-montserrat">Admin's Login</h3>
+<span class="inline-block bg-[rgba(0,0,0,.04)] uppercase py-[4px] px-[10px] font-semibold text-[12px] text-[#333] font-montserrat tracking-[0px] mb-[11px]">Admin Login</span>
+<h3 class="font-extrabold font-montserrat">Admin Access Portal</h3>
 </div>
 </div>
 </div>
 
 <div class="fields w-full float-left clear-both h-auto">
 
-            <form method="POST">
+<form method="post" class="contact_form" id="contact_form" autocomplete="off">
+<div class="returnmessage" data-success="Your message has been received, We will contact you soon."></div>
+<div class="empty_notice"><span>Please Fill Required Fields</span></div>
 
-            <div class="loginbox" style="width:500px;">
-              
-            <!-- <label for="username" class="form-label">Username: </label> -->
-            <input type="text" class="form-control" id="username" placeholder="Username" name="loginUser" aria-describedby="emailHelp"></div>
+<div class="first w-full float-left">
+<ul class="list-none">
 
-            <div class="loginbox">
-            <!-- <label for="password" class="form-label">Password: </label> -->
-            <input type="text" class="form-control" id="email" placeholder="Email" name="loginEmail" aria-describedby="emailHelp">
-            </div>
-            <div class="loginbox">
-            <!-- <label for="password" class="form-label">Password: </label> -->
-            <input type="password" class="form-control" id="password" placeholder="Password" name="loginPassword">
-            </div>
+<li class="w-full mb-[30px] float-left">
+<input id="name" type="text" placeholder="Name" required="" name="username">
+</li>
 
-            <button type="submit" class="btn btn-primary" name="login">Login</button><br><br><br><br>
-            <a href="forgot.php" style="text-decoration: none; color: darkgray;">Forgotten your password?</a>
-            </form>
-  
-  </div>
-    </section>
-  
-<?php
+<li class="w-full mb-[30px] float-left">
+<input id="email" type="text" placeholder="Email" required="" name="useremail">
+</li>
 
-$username = $_POST['loginUser'];
-$eml = $_POST['loginEmail'];
-$password = $_POST['loginPassword'];
+<li class="w-full mb-[30px] float-left">
+<input id="password" type="password" placeholder="Password" required="" name="password">
+</li>
 
-if(isset($_POST['login']))
+
+</ul>
+</div>
+
+<div class="tokyo_tm_button" data-position="left">
+<input type="submit" name="submit" value="submit">
+</div>
+
+</form>
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+<?php 
+
+$username = $_POST['username'];
+$email = $_POST['useremail'];
+$password = $_POST['password'];
+
+$matchCredentials = mysqli_query($config,"SELECT * FROM login WHERE username = '$username' AND email = '$email' AND password = '$password'");
+
+if(isset($_POST['submit']))
 {
-    $matchCredentials = mysqli_query($config,"SELECT * FROM login WHERE username='$username' AND password='$password'");
+	if(mysqli_num_rows($matchCredentials)>0)
+	{
+		session_start();
+		$_SESSION['loggedinUser'] = $email;
 
-    if(mysqli_num_rows($matchCredentials)>0)
-    {
-        session_start();
-
-        $_SESSION['loggedInUser'] = $username;
-       header('location:http://localhost/portfolio_interns/modules/ui/dashboard/dashboard.php');
-        // echo "<script>alert('Login Successful')</script>";
-    }
-    else
-    {
-        echo "<script>alert('Login Failed')</script>";
-    }
+		echo "<script>alert('Login Successful')</script>";
+		echo "<script>window.location.href='http://localhost/portfolio_interns/modules/dashboard/dashboard.php	'</script>";
+	}
+	else
+	{
+		echo "<script>alert('No Authentic User Found')</script>";
+	}
 }
 
 ?>
 
-</div>
-</div>
-</div>
-</div>
+
 
 </div>
 </div>
@@ -1253,8 +1272,7 @@ if(isset($_POST['login']))
 </div>
 
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-<script src="modules/ui/assets/js/jquery.js"></script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="modules/ui/assets/js/jquery.js"></script>
 <script src="modules/ui/assets/js/plugins.js"></script>
 <script src="modules/ui/assets/js/init.js"></script>
 

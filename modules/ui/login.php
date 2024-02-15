@@ -40,7 +40,7 @@ if(isset($_POST['login']))
         session_start();
 
         $_SESSION['loggedInUser'] = $username;
-       header('location:http://localhost/portfolio_interns/modules/ui/dashboard/dashboard.php');
+       echo "<script>window.location.href='dashboard/dashboard.php'</script>";
     }
     else
     {
