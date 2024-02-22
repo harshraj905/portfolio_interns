@@ -13,9 +13,9 @@
         <!-- end page-wrapper -->
 
         <!-- Javascript  -->   
-        <script src="modules/dashboard/assets/plugins/apexcharts/apexcharts.min.js"></script>
-        <script src="modules/dashboard/assets/plugins/datatables/simple-datatables.js"></script>
-        <script src="modules/dashboard/assets/pages/analytics-customers.init.js"></script>
+        <script src="modules/dashboard/assets/js/apexcharts/apexcharts.min.js"></script>
+        <script src="modules/dashboard/assets/js/datatables/simple-datatables.js"></script>
+        <script src="modules/dashboard/assets/js/analytics-customers.init.js"></script>
         <!-- App js -->
         <script src="modules/dashboard/assets/js/app.js"></script>
 

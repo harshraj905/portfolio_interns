@@ -1,3 +1,7 @@
+ <?php 
+include('config.php');
+include('masterheader.php');
+?>
  <!-- Top Bar Start -->
         <!-- Top Bar Start -->
         <div class="topbar">            
@@ -192,9 +196,11 @@
                             <div class="d-flex align-items-center">
                                 <img src="modules/dashboard/assets/images/users/user-4.jpg" alt="profile-user" class="rounded-circle me-2 thumb-sm" />
                                 <div>
+
+
+
                                     <small class="d-none d-md-block font-11">Admin</small>
-                                    <span class="d-none d-md-block fw-semibold font-12"><?php echo $activeusername; ?> <i
-                                            class="mdi mdi-chevron-down"></i></span>
+                                    <span class="d-none d-md-block fw-semibold font-12"><?php echo $activeusername; ?> <i class='bx bx-chevron-down'></i></span>
                                 </div>
                             </div>
                         </a>
@@ -221,7 +227,7 @@
                     <li class="hide-phone app-search">
                         <form role="search" action="#" method="get">
                             <input type="search" name="search" class="form-control top-search mb-0" placeholder="Type text...">
-                            <button type="submit"><i class="ti ti-search"></i></button>
+                            <button type="submit"><i class='bx bx-search'></i></button>
                         </form>
                     </li>                       
                 </ul>

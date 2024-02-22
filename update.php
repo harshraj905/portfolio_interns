@@ -1,7 +1,7 @@
 <?php 
-include('master_content/masterheader.php');
-include('master_content/masterleftbar.php');
-include('master_content/mastertopbar.php');
+include('masterheader.php');
+include('masterleftbar.php');
+include('mastertopbar.php');
 include('config.php');
 session_start();
 
