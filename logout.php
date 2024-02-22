@@ -1,6 +1,6 @@
 <?php 
 
-unset($_SESSION['loggedInUser']);
+unset($_SESSION['loggedinUser']);
 session_destroy();
 
 

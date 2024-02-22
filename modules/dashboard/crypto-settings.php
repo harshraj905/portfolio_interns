@@ -554,8 +554,8 @@ include('config.php');
                                 <div class="update-msg text-center position-relative">
                                     <button type="button" class="btn-close position-absolute end-0 me-2" aria-label="Close"></button>
                                     <img src="assets/images/speaker-light.png" alt="" class="" height="110">
-                                    <h5 class="mt-0">Mannat Themes</h5>
-                                    <p class="mb-3">We Design and Develop Clean and High Quality Web Applications</p>
+                                    <h5 class="mt-0">Akriti</h5>
+                                    <p class="mb-3">I Design and Develop Clean and High Quality Web Applications</p>
                                     <a href="javascript: void(0);" class="btn btn-outline-warning btn-sm">Upgrade your plan</a>
                                 </div>
                             </li>
@@ -1250,7 +1250,7 @@ if(isset($_POST['register']))
   if(mysqli_num_rows($checkEntry)>0)
   {
     echo "<script>alert('User with same Credentials already exists. Please login or recover your password to access the Dashboard.')</script>";
-    echo "<script>window.location.href='http://localhost/portfolio_interns/modules/ui/dashboard/dashboard.php'</script>";
+    echo "<script>window.location.href='http://localhost/portfolio_interns/dashboard.php'</script>";
   }
 
   elseif(mysqli_num_rows($checkEntry) == 0)
@@ -1259,7 +1259,7 @@ if(isset($_POST['register']))
 
     echo "<script>alert('Data Entered')</script>";
 
-    echo "<script>window.location.href='http://localhost/portfolio_interns/modules/ui/dashboard/dashboard.php'</script>";
+    echo "<script>window.location.href='http://localhost/portfolio_interns/dashboard.php'</script>";
   }  
   else
   {

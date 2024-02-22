@@ -1236,26 +1236,26 @@ In pursuit of my ambition to become a well-rounded Full Stack Developer, I am ea
 
 <?php 
 
-$username = $_POST['username'];
-$email = $_POST['useremail'];
-$password = $_POST['password'];
-
-$matchCredentials = mysqli_query($config,"SELECT * FROM login WHERE username = '$username' AND email = '$email' AND password = '$password'");
-
 if(isset($_POST['submit']))
 {
+	$username = $_POST['username'];
+	$email = $_POST['useremail'];
+	$password = $_POST['password'];
+
+	$matchCredentials = mysqli_query($config,"SELECT * FROM login WHERE username = '$username' AND email = '$email' AND password = '$password'");
+
 	if(mysqli_num_rows($matchCredentials)>0)
 	{
+		
+		echo '<script>window.location.href="dashboard.php"</script>';
 		session_start();
 		$_SESSION['loggedinUser'] = $email;
-
-		echo "<script>alert('Login Successful')</script>";
-		echo "<script>window.location.href='http://akriti.online/modules/dashboard/dashboard.php	'</script>";
 	}
 	else
 	{
-		echo "<script>alert('No Authentic User Found')</script>";
+		echo "<script>alert('No Data Found')</scrtipt>";
 	}
+	
 }
 
 ?>
